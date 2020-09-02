@@ -1,0 +1,365 @@
+@charset "utf-8";
+ 
+.editor-area a {
+  color: green;
+  text-decoration: underline;
+}
+ 
+.editor-area p {
+  margin: 0 0 1em 0;
+}
+.edmain .alignleft {
+  display: block;
+  float: left;
+  margin-right: 10px;
+  margin-bottom: 1em;
+}
+.edmain .aligncenter {
+  display: block;
+  margin:0 auto;
+}
+.edmain .alignright {
+  display: block;
+  float: right;
+  margin-left: 10px;
+  margin-bottom: 1em;
+}
+ 
+.edmain .clear {
+  clear: both;
+}
+ 
+.edmain .space1em {
+  clear: both;
+  height: 1em;
+}
+ 
+.edmain .space2em {
+  clear: both;
+  height: 2em;
+}
+.edmain .clear {
+  clear: both;
+}
+ 
+.edmain .space1em {
+  clear: both;
+  height: 1em;
+}
+
+.edmain .space2em {
+  clear: both;
+  height: 2em;
+}
+/* ----------------------------------------------------------------------
+ margin - 要素の外側の余白
+---------------------------------------------------------------------- */
+.m0{margin:0 !important}    /* margin 0px を指定するクラス */
+.mt0{margin-top:0 !important}   /* margin-top0px を指定するクラス */
+.mr0{margin-right:0 !important}   /* margin-right0px を指定するクラス*/
+.mb0{margin-bottom:0 !important}  /* margin-bottom0px を指定するクラス*/
+.ml0{margin-left:0 !important}    /* margin-left0px を指定するクラス*/
+
+.m5{margin:5px !important}
+.mt5{margin-top:5px !important}
+.mr5{margin-right:5px !important}
+.mb5{margin-bottom:5px !important}
+.ml5{margin-left:5px !important}
+
+.m10{margin:10px !important}
+.mt10{margin-top:10px !important}
+.mr10{margin-right:10px !important}
+.mb10{margin-bottom:10px !important}
+.ml10{margin-left:10px !important}
+
+.m15{margin:15px !important}
+.mt15{margin-top:15px !important}
+.mr15{margin-right:15px !important}
+.mb15{margin-bottom:15px !important}
+.ml15{margin-left:15px !important}
+
+.m20{margin:20px !important}
+.mt20{margin-top:20px !important}
+.mr20{margin-right:20px !important}
+.mb20{margin-bottom:20px !important}
+.ml20{margin-left:20px !important}
+
+.m25{margin:25px !important}
+.mt25{margin-top:25px !important}
+.mr25{margin-right:25px !important}
+.mb25{margin-bottom:25px !important}
+.ml25{margin-left:25px !important}
+
+.m30{margin:30px !important}
+.mt30{margin-top:30px !important}
+.mr30{margin-right:30px !important}
+.mb30{margin-bottom:30px !important}
+.ml30{margin-left:30px !important}
+
+.m35{margin:35px !important}
+.mt35{margin-top:35px !important}
+.mr35{margin-right:35px !important}
+.mb35{margin-bottom:35px !important}
+.ml35{margin-left:35px !important}
+
+.m40{margin:40px !important}
+.mt40{margin-top:40px !important}
+.mr40{margin-right:40px !important}
+.mb40{margin-bottom:40px !important}
+.ml40{margin-left:40px !important}
+
+.m45{margin:45px !important}
+.mt45{margin-top:45px !important}
+.mr45{margin-right:45px !important}
+.mb45{margin-bottom:45px !important}
+.ml45{margin-left:45px !important}
+
+.m50{margin:50px !important}
+.mt50{margin-top:50px !important}
+.mr50{margin-right:50px !important}
+.mb50{margin-bottom:50px !important}
+.ml50{margin-left:50px !important}
+
+.m55{margin:55px !important}
+.mt55{margin-top:55px !important}
+.mr55{margin-right:55px !important}
+.mb55{margin-bottom:55px !important}
+
+.ml55{margin-left:55px !important}
+.m60{margin:60px !important}
+.mt60{margin-top:60px !important}
+.mr60{margin-right:60px !important}
+.mb60{margin-bottom:60px !important}
+.ml60{margin-left:60px !important}
+
+.m65{margin:65px !important}
+.mt65{margin-top:65px !important}
+.mr65{margin-right:65px !important}
+.mb65{margin-bottom:65px !important}
+.ml65{margin-left:65px !important}
+
+.m70{margin:70px !important}
+.mr70{margin-right:70px !important}
+.mb70{margin-bottom:70px !important}
+.ml70{margin-left:70px !important}
+
+.m75{margin:75px !important}
+.mt75{margin-top:75px !important}
+.mr75{margin-right:75px !important}
+.mb75{margin-bottom:75px !important}
+.ml75{margin-left:75px !important}
+
+.m80{margin:80px !important}
+.mt80{margin-top:80px !important}
+.mr80{margin-right:80px !important}
+.mb80{margin-bottom:80px !important}
+.ml80{margin-left:80px !important}
+
+/* ----------------------------------------------------------------------
+ padding - 要素の内側の余白
+---------------------------------------------------------------------- */
+.p0{padding:0 !important}   /* padding-0px を指定するクラス */
+.pt0{padding-top:0 !important}    /* padding-top0px を指定するクラス */
+.pr0{padding-right:0 !important}  /* padding-right0px を指定するクラス */
+.pb0{padding-bottom:0 !important} /* padding-bottom0px を指定するクラス */
+.pl0{padding-left:0 !important}   /* padding-left0px を指定するクラス */
+
+.p5{padding:5px !important}
+.pt5{padding-top:5px !important}
+.pr5{padding-right:5px !important}
+.pb5{padding-bottom:5px !important}
+.pl5{padding-left:5px !important}
+
+.p10{padding:10px !important}
+.pt10{padding-top:10px !important}
+.pr10{padding-right:10px !important}
+.pb10{padding-bottom:10px !important}
+.pl10{padding-left:10px !important}
+/*-----------------------------------*/
+.wrap{
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  line-height: 2em;
+  font-size: 15px;
+  margin-bottom:20px !important;
+  display: flex;
+  flex-wrap: wrap;
+}
+/*----*/
+.img_left{
+  width: 30%;
+  margin-right: 5%;
+  margin-bottom:10px;
+}
+.txt_right{
+  width: 65%;
+  margin-bottom:10px;
+}
+/*----*/
+.img_right{
+  width: 30%;
+  margin-left: 5%;
+  margin-bottom:10px;
+}
+.txt_left{
+  width: 65%;
+  margin-bottom:10px;
+}
+
+@media (max-width: 768px){
+.img_left{
+  width: 100%;
+  margin-right: 0%;
+}
+.txt_right{
+  width: 100%;
+}
+.img_right{
+  width: 100%;
+  margin-left: 0%;
+}
+.txt_left{
+  width: 100%;
+}
+}
+/*-----------------------------------*/
+/* sample
+------------------------------------ */
+table.tblsample {
+    margin: 0px auto 20px auto;
+    border-top: 1px solid #ccc;
+    border-left: 1px solid #ccc;
+    width: 100%;
+    border-collapse: collapse;
+    text-align: left;
+}
+table.tblsample th {
+    padding: 10px 0px;
+    border-right: 1px solid #ccc;
+    border-bottom: 1px solid #ccc;
+    color: #333;
+    background-color: rgba(0, 0, 0, .03);
+    font-weight: bold!important;
+    text-align: center;
+}
+table.tblsample td {
+    padding: 6px;
+    border-right: 1px solid #ccc;
+    border-bottom: 1px solid #ccc;
+}
+@media (max-width: 768px){
+table.tblsample tr{
+  display: flex;
+  flex-wrap: wrap;
+}
+table.tblsample td,table.tblsample th{
+  width: 100%;
+}
+}
+/*-----------------------------------*/
+/* row
+------------------------------------ */
+span.row_title{
+  text-align: center;
+  display: block;
+}
+.row3{
+  width: 30%;
+}
+.row3.center_row{
+  margin-right:5%;
+  margin-left:5%;
+}
+@media (max-width: 768px){
+.row3{
+  width: 100%;
+}
+.row3.center_row{
+  margin-right:0%;
+  margin-left:0%;
+}
+}
+.row4{
+  width: 23%;
+  margin-right:2%;
+}
+.row4:nth-child{
+  width: 23%;
+  margin-right:2%;
+
+}
+@media (max-width: 768px){
+.row4{
+  width: 48%;
+  margin-right:2%;
+}
+}
+/*-----------------------------------*/
+/* 見出し
+------------------------------------ */
+/* 01 */
+h3.title01{
+  position: relative;
+  padding: .25em 0 .5em .75em;
+  border-left: 6px solid #3498db;
+}
+h3.title01::after {
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  content: '';
+  width: 100%;
+  height: 0;
+  border-bottom: 1px solid #ccc;
+}
+/* 02 */
+h3.title02 {
+  padding-bottom: .5em;
+  border-bottom: 1px solid #ccc;
+}
+h3.title02:first-letter {
+  margin-right: .1em;
+  font-size: 1.5em;
+}
+/* 03 */
+h3.title03 {
+  padding: .5em .75em;
+  background-color: #f6f6f6;
+  border-left: 6px solid #ccc;
+}
+
+/* 04 */
+h3.title04 {
+  position: relative;
+  padding: .5em .75em;
+  background-color: #f0f0f0;
+  border-radius: 6px;
+}
+h3.title04::after {
+  position: absolute;
+  top: 100%;
+  left: 30px;
+  content: '';
+  width: 0;
+  height: 0;
+  border: 10px solid transparent;
+  border-top: 15px solid #f0f0f0;
+}
+
+/* 05 */
+h3.title05 {
+  position: relative;
+  padding-bottom: .5em;
+  border-bottom: 4px solid #ccc;
+}
+h3.title05::after {
+  position: absolute;
+  bottom: -4px;
+  left: 0;
+  z-index: 2;
+  content: '';
+  width: 20%;
+  height: 4px;
+  background-color: #3498db;
+}

@@ -1,0 +1,153 @@
+@charset "utf-8";
+
+/************************************************
+navi
+************************************************ */
+/*管理画面ナビ部分
+----------------------------------------------- */
+#sidedrawer-brand {
+  padding-left: 20px;
+}
+#sidedrawer ul {
+  list-style: none;
+}
+#sidedrawer > ul {
+  padding-left: 0px;
+}
+#sidedrawer > ul > li:first-child {
+    margin-top: 25px;
+}
+#sidedrawer strong {
+    display: block;
+    padding: 15px 40px 15px;
+    cursor: pointer;
+}
+#sidedrawer strong:hover {
+  background-color: #ececec;
+  color: #000000!important;
+}
+#sidedrawer li.active strong{
+    background-color: #3490dc;
+    color: #FFFFFF!important;
+}
+li.active i.fi2.fi-angle-right {
+    color: #FFFFFF;
+}
+
+#sidedrawer strong + ul > li {
+  padding: 6px 0px;
+}
+#sidedrawer ul.ch {
+    margin-left: -40px;
+}
+div#sidedrawer ul li {
+    border-bottom: 1px dotted #9E9E9E;
+}
+div#sidedrawer ul li ul.ch li {
+    border: unset!important;
+    margin: 0;
+    padding: 0px;
+    font-size: 13px;
+}
+div#sidedrawer ul li ul.ch li a {
+    width: 100%;
+    display: block;
+    background-color: #FFFFFF;
+    text-decoration: none;
+    text-decoration: none;
+    padding: 5px 5px;
+    /* margin: 0; */
+}
+div#sidedrawer ul li ul.ch li a:hover {
+    background-color: #ececec;
+    color: #000000!important;
+}
+#sidedrawer li i.fi-angle-right {
+    position: absolute;
+    margin-top: 19px;
+    margin-left: 15px;
+}
+ul.ch li i.fi2.fi-angle-dobule-right {
+    margin-right: 10px;
+    font-size: 10px;
+    margin-left: 20px;
+}
+a.navbarlist{
+    text-decoration: unset!important;
+    color: black;
+}
+a.navbarlist:hover {
+    text-decoration: unset!important;
+    color: black;
+}
+li.nav-item-pc.items-name {
+    line-height: 1.35em;
+    color: #FFFFFF;
+    margin-right: 20px;
+    padding: 10px;
+}
+
+/*管理画面ナビ部分　PC
+----------------------------------------------- */
+@media (min-width: 768px) {
+#sidedrawer {
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  width: 220px;
+  left: 0px;
+  overflow: auto;
+  z-index: 0;
+  background-color: #fff;
+  transition: transform 0.2s;
+  border-right: 1px solid rgba(0,0,0,.125);
+}
+#sidedrawer .nav-item{
+  display:none;
+}
+}
+
+/*管理画面ナビ部分　スマホ
+----------------------------------------------- */
+@media (max-width: 767px) {
+#sidedrawer > ul > li:first-child {
+    margin-top: 10px;
+    padding-top: 0px;
+}
+#sidedrawer > ul > li:last-child {
+    /*padding-top: 10px;*/
+}
+.mui-divider ,li.nav-item-pc,h2.sp_title{
+    display: none;
+}
+
+div#sidedrawer ul li {
+    border-bottom: unset;
+    background-color: #FFFFFF;
+}
+li.nav-item {
+    /* text-align: right; */
+    margin-top: 10px;
+    background-color: unset!important;
+    width: 25%;
+    float: left;
+    /* text-align: right; */
+}
+li.nav-item .btn {
+    padding: 5px 6px;
+    font-size: 12px;
+    width: 95%;
+}
+#sidedrawer li i.fi-angle-right {
+    margin-top: 12px;
+}
+#sidedrawer strong {
+    padding: 8px 40px 8px;
+}
+.footer {
+    text-align: center!important;
+    font-size: 13px;
+    padding: 15px 0px!important;
+    margin: 0px;
+}
+}

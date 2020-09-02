@@ -1,0 +1,308 @@
+@charset "utf-8";
+
+/************************************************
+管理画面
+************************************************ */
+/*管理画面レイアウト
+----------------------------------------------- */
+/*全体
+----------------------------------------------- */
+.card-side {
+    display: flex;
+    flex-wrap: wrap;
+}
+.footer {
+    height: 55px;
+    text-align: right;
+    padding-right: 30px;
+    padding-top: 15px;
+    padding-bottom: 5px;
+}
+.card-side button {
+    width: 100%;
+}
+.col-md-12.pager {
+    padding-bottom: 1.5rem!important;
+}
+.col-md-12.pager h2.pager-list,.col-md-12.pager h3.pager-list {
+font-size: 13px;
+    margin-bottom: 0px;
+    padding-right: 15px;
+    line-height: 1.6;
+    display: inline-block;
+}
+table.tbl-r04 {
+    font-size: 14px;
+}
+.title_sp_td{
+    display:none;
+}
+.alert.error-alert-success {
+    color: #641d1d;
+    background-color: #ffcaca;
+    border-color: #ffcaca;
+}
+.count_items {
+    /* text-align: right; */
+    padding: 20px 0px;
+    margin-top: 20px;
+}
+.count_items span{
+    color: red;
+}
+.btn-back {
+    color: #fff;
+    background-color: #c8c8c8;
+    border-color: #c8c8c8;
+    width: 100%;
+    margin-top: 20px;
+}
+.btn-back:hover {
+    color: #fff;
+}
+.alert {
+    border-radius: 0px;
+    margin-right: 15px;
+    margin-left: 15px;
+}
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    margin-right: -15px;
+    margin-left: -15px;
+}
+.btn2_pagerright .btn-wid_rightlst {
+    float: right;
+    margin-left: 10px;
+}
+.btn-primary2 {
+    color: #212529;
+    background-color: #f7f7f7;
+    border-color: #ccc;
+}
+.btn2_pagerright {
+    margin: -60px 0px 0px 0px;
+}
+.btn-wide {
+    display: block!important;
+    margin: 10px auto;
+    width: 200px;
+}
+/*ページャー
+----------------------------------------------- */
+.pager .card-body {
+    display: flex;
+}
+.pager i.fi2.fi-home {
+    font-size: 16px;
+    margin-right: 7px;
+}
+.pager i.fi2.fi-angle-dobule-right {
+    font-size: 10px;
+    margin-right: 7px;
+    line-height: 2em;
+}
+.message-errors {
+    text-align: center;
+    padding: 20px;
+    background-color: rgb(255, 238, 238);
+    border: 1px solid #e3342f;
+    margin-bottom: 1.5em;
+    color: #e3342f;
+}
+h2.heading {
+    border-bottom: solid 3px #dfdfdf;
+    position: relative;
+    font-size: 20px;
+    margin-bottom: 20px;
+    padding-bottom: 5px;
+}
+
+h2.heading:after {
+    position: absolute;
+    content: " ";
+    display: block;
+    border-bottom: solid 3px #9E9E9E;
+    bottom: -3px;
+    width: 40%;
+}
+.list_area_category {
+    display: flex;
+    flex-wrap: wrap;
+}
+.list_area_category select {
+    margin-right: 5%;
+}
+.list_area_category a {
+    width: 25%;
+}
+input#cat_color {
+    height: 40px;
+    padding: 0px;
+}
+/*検索
+----------------------------------------------- */
+.warp_sort {
+    /* display: flex; */
+    position: absolute;
+    display: inline-grid;
+    margin-top: -3px;
+    margin-left: 10px;
+}
+a.up_sort, a.down_sort {
+    font-size: 12px;
+    margin-bottom: -5px;
+}
+a.up_sort {
+    margin-bottom: -7px;
+}
+.approval_warp0,.release_warp0{
+    background: #f7f7f7;
+    border: 1px solid #9E9E9E;
+    font-size: 11px;
+    width: 50%;
+    margin: 0 auto;
+    border-radius: 5px;
+    padding: 3px;
+    color: red;
+    font-weight: bold;
+}
+.approval_warp1,.release_warp1{
+    background: #f7f7f7;
+    border: 1px solid #9E9E9E;
+    font-size: 11px;
+    width: 50%;
+    margin: 0 auto;
+    border-radius: 5px;
+    padding: 3px;
+    color: #3F51B5;
+    font-weight: bold;
+}
+.release_warp0,.release_warp1{
+    width: 60%;
+}
+.reservation_st_warp{
+    background: #ffffff;
+    border: 1px solid #3490dc;
+    font-size: 11px;
+    width: 43%;
+    margin: 0;
+    border-radius: 5px;
+    padding: 0px;
+    color: #3490dc;
+    font-weight: bold;
+    display: block;
+    text-align: center;
+    margin-bottom: 5px;
+}
+.reservation_ed_warp{
+    background: #ffffff;
+    border: 1px solid #e91e63;
+    font-size: 11px;
+    width: 43%;
+    margin: 0;
+    border-radius: 5px;
+    padding: 0px;
+    color: #e91e63;
+    font-weight: bold;
+    display: block;
+    text-align: center;
+    margin-bottom: 5px;
+}
+/*サイズ指定　全体
+----------------------------------------------- */
+@media (max-width: 1199px) {
+.card-side {
+    display: block;
+    flex-wrap: unset;
+}
+.card-side .col-md-1,
+.card-side .col-md-2,
+.card-side .col-md-3,
+.card-side .col-md-4,
+.card-side .col-md-5,
+.card-side .col-md-6,
+.card-side .col-md-7,
+.card-side .col-md-8,
+.card-side .col-md-9{
+    max-width: 100%;
+}
+.card-side .pc-warp{
+    padding-right: 0px;
+    padding-left: 0px;
+}
+.card-side .row {
+    display: block;
+    flex-wrap: unset;
+    margin-right: -15px;
+    margin-left: -15px;
+    text-align: left;
+}
+.card-side span.required_type,.card-side span.any_type {
+    float: left;
+    margin-right: 0px;
+    margin-left: 10px;
+    position: absolute;
+    margin-top: -24px;
+}
+.card-side .text-md-right {
+    text-align: left!important;
+}
+.card-side .sp-top{
+    padding-top: 1.5rem!important;
+}
+.form-group.row.seh_1 {
+    display: none;
+}
+.count_items {
+    padding: 10px 0px;
+    margin-top: 0px;
+}
+.reservation_st_warp,.reservation_ed_warp{
+    width: 15%;
+}
+.list_area_category select {
+    margin-right: 3%;
+    /* margin-bottom: 20px; */
+    width: 50%;
+}
+.list_area_category a {
+    width: 47%;
+}
+}
+/*管理画面PC
+----------------------------------------------- */
+@media (min-width: 768px) {
+h1 {
+    display: none;
+}
+h2.sp_title {
+font-size: 18px;
+    margin-bottom: 0px;
+    text-align: left;
+    margin-left: 20px;
+    line-height: 1.4em;
+}
+.card-side .col-md-3.pc-warp{
+    padding-right: 0px;
+}
+.card-side .col-md-9.pc-warp{
+    padding-left: 0px;
+}
+.card-side .col-md-7.pc-warp{
+    padding-right: 0px;
+}
+.card-side .col-md-5.pc-warp{
+    padding-left: 0px;
+}
+table.tbl-r04 .btn,table.tbl-r02 .btn {
+    padding: 5px 8px;
+}
+}
+/*管理画面ナビ部分　スマホ
+----------------------------------------------- */
+@media (max-width: 767px) {
+.reservation_st_warp,.reservation_ed_warp{
+    width: 20%;
+}
+}
